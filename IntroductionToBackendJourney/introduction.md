@@ -55,9 +55,19 @@
 
 ## Server Application Responsibility
 
-        <!-- * Listen Request
-        * Process
-        * Response -->
+<!--
+    * Listen Request
+        * Always Same
+    * Process
+        * Algorithm
+        * Data Structure
+        * Database
+        * Problem Solving
+        * CRUD
+
+    * Response
+        * Always same
+    -->
 
 ## node command to create a server
 
