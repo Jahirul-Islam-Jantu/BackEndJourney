@@ -77,3 +77,13 @@
         *   yarn add -D nodemon
         *   yarn add express
      -->
+
+## HTTP
+
+    <!--
+        * GET request (want to read data form server)
+        * POST ( Create new data)
+        * PULL/PATCH (Update existing content)
+        * Delete (Delete data form database)
+
+     -->
