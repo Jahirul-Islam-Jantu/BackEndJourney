@@ -38,6 +38,11 @@ const books = [
 app.get("/books", (req, res) => {
   // Process request
   // Response generator
+  if (req.query.show === "all") {
+    return res.json(books);
+  }
+  const result = books.filter((books) => books.price <= 1000);
+  res.json(result);
 });
 
 app.listen(5000, () => {
