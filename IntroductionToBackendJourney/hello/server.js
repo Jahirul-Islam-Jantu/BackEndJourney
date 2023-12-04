@@ -25,7 +25,17 @@ const express = require("express");
 
 const app = express();
 
-app.get("/books", () => {
+const books = [
+  { id: 1, name: "JavaScript in hand", price: 300 },
+  { id: 2, name: "JavaScript Loops", price: 500 },
+  { id: 3, name: "JavaScript variables", price: 600 },
+  { id: 4, name: "JavaScript Function", price: 700 },
+  { id: 5, name: "JavaScript condition", price: 1000 },
+  { id: 6, name: "JavaScript algorithm", price: 2000 },
+  { id: 7, name: "JavaScript module", price: 1500 },
+];
+
+app.get("/books", (req, res) => {
   // Process request
   // Response generator
 });
