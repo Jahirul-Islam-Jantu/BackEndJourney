@@ -25,6 +25,11 @@ const express = require("express");
 
 const app = express();
 
+app.get("/books", () => {
+  // Process request
+  // Response generator
+});
+
 app.listen(5000, () => {
   console.log("This server is using port 5000");
 });
