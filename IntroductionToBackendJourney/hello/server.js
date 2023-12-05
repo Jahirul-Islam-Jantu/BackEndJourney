@@ -24,6 +24,7 @@
 const express = require("express");
 
 const app = express();
+app.use(express.json());
 
 const books = [
   { id: 1, name: "JavaScript in hand", price: 300 },
@@ -56,6 +57,13 @@ app.get("/books", (req, res) => {
   return res.json(books);
 });
 
-app.listen(5000, () => {
-  console.log("This server is using port 5000");
+app.post("/books", (req, res) => {
+  const book = req.body;
+  books.push(book);
+
+  res.json(books);
+});
+
+app.listen(8000, () => {
+  console.log("This server is using port 8000");
 });

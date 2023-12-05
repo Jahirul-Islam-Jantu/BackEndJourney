@@ -97,3 +97,7 @@
         * Update book - /books/bookId
         * Delete book - /books/bookId
  -->
+
+## FlowChart of BackEnd
+
+<!-- REQUEST-> MIDDLEWARE(Logger,Body Parser, file parser, user ip,block ip, authentication, authorization, validation )->CONTROLLER(Business logic)->MIDDLEWARE(Error handler)-> RESPONSE -->
