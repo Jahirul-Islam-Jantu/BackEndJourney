@@ -87,3 +87,13 @@
         * Delete (Delete data form database)
 
      -->
+
+## Routing Pattern
+
+<!--
+        * GET Everything - /books
+        * GET One Book - /books/bookId
+        * POST new book - /books
+        * Update book - /books/bookId
+        * Delete book - /books/bookId
+ -->
