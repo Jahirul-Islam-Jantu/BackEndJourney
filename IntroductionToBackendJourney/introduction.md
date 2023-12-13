@@ -101,3 +101,12 @@
 ## FlowChart of BackEnd
 
 <!-- REQUEST-> MIDDLEWARE(Logger,Body Parser, file parser, user ip,block ip, authentication, authorization, validation )->CONTROLLER(Business logic)->MIDDLEWARE(Error handler)-> RESPONSE -->
+
+
+<!--    * Middleware
+        * Project Structure
+        * Project -->
+        <!-- 
+            * What is Middleware?
+                *Middleware is just a controller function
+         -->
