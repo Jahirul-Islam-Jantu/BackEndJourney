@@ -9,15 +9,6 @@ app.use([morgan("dev"), cors(), express.json()]);
 
 app.get("/health", (_req, res) => {
   //if any case you don't use any obj use a (_) before the obj name
-  throw new Error("error");
-  res.status(200).json({
-    message: "Success",
-  });
-});
-
-app.get("/health2", (_req, res) => {
-  //if any case you don't use any obj use a (_) before the obj name
-  throw new Error("error");
   res.status(200).json({
     message: "Success",
   });
