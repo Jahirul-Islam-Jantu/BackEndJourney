@@ -76,7 +76,15 @@
         *   const http = require('http') //default module of nodejs
         *   yarn add -D nodemon
         *   yarn add express
-     -->
+        *   dotenv
+        *   shortid
+        *   cors
+        *   morgan
+        "scripts": {
+    "start": "nodemon ./server.js"
+
+}
+-->
 
 ## HTTP
 

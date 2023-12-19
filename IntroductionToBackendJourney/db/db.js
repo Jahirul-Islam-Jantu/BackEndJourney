@@ -1,6 +1,6 @@
 const Ticket = require("../models/ticket");
 
-class myDB {
+class MyDB {
   constructor() {
     this.tickets = [];
   }
@@ -116,9 +116,9 @@ class myDB {
     }
 
     const winners = indexes.map((index) => this.tickets[index]);
-    return winner;
+    return winners;
   }
 }
 
-const myDB = new myDB();
+const myDB = new MyDB();    
 module.exports = myDB;
