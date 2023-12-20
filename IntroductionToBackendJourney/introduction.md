@@ -718,6 +718,6 @@ module.exports = app;
 
 এই লেকচারের সোর্স কোডসমূহ এই [লিংক](../../src/lecture-16/) এ পাবেন।
 
-## AUTHOR
 
-[Aditya Chakraborty](https://github.com/adityackr)
+
+
