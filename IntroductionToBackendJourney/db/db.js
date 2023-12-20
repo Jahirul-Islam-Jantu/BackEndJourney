@@ -106,13 +106,16 @@ class MyDB {
    * @returns {Array<Ticket>}
    */
   draw(winnerCount) {
-    let indexes = new Array(winnerCount);
-    for (let i = 0; i < indexes.length; i++) {
-      let index = Math.floor(Math.random() * this.tickets.length);
-      while (indexes.includes(index)) {
-        index = Math.floor(Math.random() * this.tickets.length);
-      }
-      indexes.push(index);
+   let winnerIndexes = new Array(winnerCount)
+   let index = 0
+   while(index<winnerCount){
+    let winnerIndex = Math.floor(Math.random() * this.tickets.length)
+    console.log('winner index', winnerIndex);
+    if (!winnerIndexes.includes(winnerIndex)){
+      winnerIndexes[index++] = winnerIndex
+      continue
+    }
+   }
     }
 
     const winners = indexes.map((index) => this.tickets[index]);
